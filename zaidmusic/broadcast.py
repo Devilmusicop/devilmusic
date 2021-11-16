@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By VeezProject
+# Copyright (C) 2021 By electroProject
 # Originally written by levina on github
 # Broadcast function
 
