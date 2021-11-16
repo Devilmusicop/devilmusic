@@ -25,7 +25,7 @@ async def join_group(client, message):
     try:
         user = await USER.get_me()
     except BaseException:
-        user.first_name = "music assistant"
+        user.first_name = "electro music assistant"
 
     try:
         await USER.join_chat(invitelink)
@@ -44,7 +44,7 @@ async def join_group(client, message):
 
 
 @Client.on_message(command(["userbotleave",
-                            f"leave@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
+                            f"leave@{RiCHA_X_NiTiNBOT}"]) & filters.group & ~filters.edited)
 @authorized_users_only
 async def leave_one(client, message):
     try:
@@ -58,7 +58,7 @@ async def leave_one(client, message):
         return
 
 
-@Client.on_message(command(["leaveall", f"leaveall@{BOT_USERNAME}"]))
+@Client.on_message(command(["leaveall", f"leaveall@{RiCHA_X_NiTiNBOT}"]))
 @sudo_users_only
 async def leave_all(client, message):
     if message.from_user.id not in SUDO_USERS:
