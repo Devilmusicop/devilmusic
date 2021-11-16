@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By Veez Music-Project
+# Copyright (C) 2021 By electro Music-Project
 # Commit Start Date 20/10/2021
 # Finished On 28/10/2021
 
@@ -87,7 +87,7 @@ async def play(_, m: Message):
                 await suhu.delete()
                 await m.reply_photo(
                     photo=f"{IMG_1}",
-                    caption=f"💝 **ᴛʀᴀᴄᴋ ɪꜱ ᴀᴅᴅᴇᴅ ɪɴ Qᴜᴇᴜᴇ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}\n🔢 **ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
+                    caption=f"💝 **ᴛʀᴀᴄᴋ ɪꜱ ᴀᴅᴅᴇᴅ ɪɴ Qᴜᴇᴜᴇ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🎧 **electro ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}\n🔢 **ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
                     reply_markup=keyboard,
                 )
             else:
@@ -102,7 +102,7 @@ async def play(_, m: Message):
                 await suhu.delete()
                 await m.reply_photo(
                     photo=f"{IMG_2}",
-                    caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
+                    caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **electro ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
                     reply_markup=keyboard,
                 )
         else:
@@ -191,7 +191,7 @@ async def play(_, m: Message):
                             await suhu.delete()
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
+                                caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **electro ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
